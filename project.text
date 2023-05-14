@@ -1,0 +1,18 @@
+SIRIM - Malaysia
+
+CLICK https://ecomm.sirim.my/Login_External.aspx
+Click on 'Sirim Enquiry' - Link is present in the Footer. javascript:__doPostBack('link_Sirim_Enquiry','')
+In the next page, click on 'Product Information' - javascript:__doPostBack('ctl00$ContentPlaceHolder1$dlCategories$ctl01$link0','')
+
+Add a space in the 'Model/Marketing Name' field and hit 'SEARCH'.
+
+Click on APPROVAL DATE twice to sort in descending order.
+Now scan page 1 and page 2 with 20 rows each.
+Check the 'Brand' column to see if there is a row with our preferred brand name.
+Only if the value in 'Brand' column matches one of the brands we need, the code should write those rows (alone) to a csv and send those rows (with all column headers) to mail.
+
+During every code run, check new rows from website in first 2 pages & compare with values in our csv.
+If such rows (with matching brands) are NOT present in the table, then DON'T write to table & DON'T send mail.
+Note: 'Type Approval Code' is the unique value here so you can use that for comparison.
+
+Brand names to check for matches: (Samsung, Huawei, Honor, Xiaomi, Realme, Samusung, Redmi, Poco, Google, Apple, Vivo, Oppo, Oneplus, Motorola, Asus)
